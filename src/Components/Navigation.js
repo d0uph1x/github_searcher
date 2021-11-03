@@ -10,7 +10,7 @@ const Navigation = () => {
           <Navbar.Brand as={Link} to="/">< i className='fab fa-github'></i> GitHUB Searcher </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
+            <Nav className="me-auto">
               <Nav.Link as= {Link} to="/">Users</Nav.Link>
               <Nav.Link as={Link} to="/repos">Repositories</Nav.Link>
             </Nav>
