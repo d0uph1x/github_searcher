@@ -1,7 +1,6 @@
 import * as actions from '../actionTypes';
 
 export const userListReducer = (state = { users: [] }, action) => {
-    console.log('dispatching',action)
     switch (action.type) {
         case actions.USERS_REQUEST:
             return { loading: true, users: [] }
